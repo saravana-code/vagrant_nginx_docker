@@ -1,5 +1,6 @@
 # vagrant-nginx-docker
 USAGE:
+
 Note: please look in to the script_run_* files in the repo and run them on host and Virtualbox VM
 
 There are docker-installed vagrant box images available but inorder to have latest docker engine versions I am installing dockers via script once VM is deployed.
