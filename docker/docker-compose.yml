@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  origin:
+    build: origin
+    networks:
+      - data0
+    ports:
+      - "80:8080"
+    volumes:
+      - ./assets:/assets
+    stdin_open: true
+    tty: true
+
+networks:
+  data0:
