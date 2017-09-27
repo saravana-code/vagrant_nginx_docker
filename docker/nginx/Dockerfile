@@ -64,9 +64,9 @@ RUN mkdir -p /var/www/mythirdpage.com/html
 
 
 # Set up config files
-COPY  1.html /var/www/myfirstpage.com/html
-COPY  2.html /var/www/mysecondpage.com/html
-COPY  3.html /var/www/mythirdpage.com/html
+COPY  1.html /var/www/myfirstpage.com/html/
+COPY  2.html /var/www/mysecondpage.com/html/
+COPY  3.html /var/www/mythirdpage.com/html/
 COPY  hosts /etc/
 # Open ports
 EXPOSE 80 8080
