@@ -1,7 +1,7 @@
 # vagrant-nginx-docker
 USAGE:
 commands should be run in "vagrant directory"
-cd vagrant/centos7
+    cd vagrant/centos7
 
 Download the vagrant box using below link:
 wget http://cloud.centos.org/centos/7/vagrant/x86_64/images/CentOS-7-Vagrant-1508-x86_64-01.box
